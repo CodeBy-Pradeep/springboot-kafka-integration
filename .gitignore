@@ -1,0 +1,66 @@
+# -----------------------
+# Java & Maven
+# -----------------------
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.tmp
+*.out
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+
+# -----------------------
+# IDE / Editors
+# -----------------------
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+
+# -----------------------
+# OS Generated Files
+# -----------------------
+.DS_Store
+Thumbs.db
+
+# -----------------------
+# Logs & Temp Files
+# -----------------------
+logs/
+*.log
+*.bak
+*.tmp
+
+# -----------------------
+# Spring Boot
+# -----------------------
+application-dev.yml
+application-test.yml
+application-*.properties
+*.pid
+
+# -----------------------
+# Docker
+# -----------------------
+docker-compose.override.yml
+.env
+.dockerignore
+
+# -----------------------
+# Build Tools
+# -----------------------
+/build/
+/out/
+
+# -----------------------
+# Misc
+# -----------------------
+*.orig
